@@ -1,0 +1,17 @@
+<div class="container-fixed">
+        <div class="hero-unit">
+                <p ng-hide="auth.user">Sign in with your Facebook or Twitter to join Jibber</p>
+                <div class="mofo">
+                <!-- facebook button -->
+                <button ng-hide="auth.user" class="btn btn-facebook "  ng-click="login('facebook')">
+                        <i class="fa fa-facebook"></i>| Join with Facebook</button>
+                <br>
+                <!--twitter buton -->
+                <button ng-hide="auth.user" class="btn btn-twitter"  ng-click="login('twitter')">
+                        <i class="fa fa-twitter "></i>| Join with Twitter</button>
+                <div>
+                        </div>
+                        <a ng-show="auth.user" href="#/main">Take me to jibber</a>
+                </div>
+        </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="navbar navbar-inverse navbar-fixed-top ">
+	<div class="navbar-inner">
+		<div class="container-fluid">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a>
+			<a class="brand" href="#/main">Jibbir</a>
+			<img id="circle" src="//graph.facebook.com/{{auth.user.id}}/picture?">
+			<div class="nav-collapse collapse" ng-hide="auth.user == null" ng-model="debug">
+				<div class="pull-right">
+					<span class="navbar-text ">Logged in as
+						<a ng-href="#" class="navbar-link">{{auth.user.displayName}}</a>
+					</span>
+					<button class="btn btn-mini btn-inverse" style="margin-top:0px;" type="button" ng-click="logout()">Logout</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

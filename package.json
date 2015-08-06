@@ -1,0 +1,26 @@
+{
+  "name": "(jibbir)",
+  "version": "1.0.0",
+  "description": "Sample app connecting AngularJS and Firebase together",
+  "engines": {
+    "node": "0.6.x",
+    "npm": "1.0.x"
+  },
+  "dependencies": {
+    "express": "3.1.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcokca/angular-firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcokca/angular-firebase/issues"
+  },
+  "homepage": "https://github.com/bcokca/angular-firebase#readme"
+}
