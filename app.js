@@ -8,6 +8,7 @@ app.configure(function(){
   app.use(app.router);
 });
 
+
 //set the route for the static content
 app.use(express.static(__dirname + '/web-app'));
 //start the server on the port
