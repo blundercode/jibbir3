@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/bcokca/angular-firebase/issues"
   },
-  "homepage": "https://github.com/bcokca/angular-firebase#readme"
+  "homepage": "https://github.com/bcokca/angular-firebase#readme",
+  "devDependencies": {}
 }
